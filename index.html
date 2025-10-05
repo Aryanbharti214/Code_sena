@@ -1,0 +1,522 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homepage | Financial Reporting & BSS/OSS Capabilities</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="icon" href="/p2.jpeg">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body class="antialiased">
+
+    <section id="home" class="dark-section">
+        <div class="relative w-full min-h-screen flex flex-col items-center justify-center p-4 overflow-hidden">
+
+            <div class="absolute top-1/4 left-1/4 w-96 h-96 bg-blue-500/10 rounded-full filter blur-3xl animate-pulse">
+            </div>
+            <div
+                class="absolute bottom-1/4 right-1/4 w-96 h-96 bg-teal-400/10 rounded-full filter blur-3xl animate-pulse animation-delay-4000">
+            </div>
+
+            <div id="card-1"
+                class="animated-card top-1/2 -translate-y-[120%] left-[10%] xl:left-[20%] w-48 p-3 glass-card hidden lg:block">
+                <p class="text-xs text-gray-300">Expenses</p>
+                <p class="text-lg font-bold text-white">$56.2K</p>
+                <div class="flex items-center justify-center mt-2">
+                    <div class="relative w-24 h-24">
+                        <svg class="w-full h-full" viewBox="0 0 36 36">
+                            <path d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831"
+                                fill="none" stroke="#3b82f6" stroke-width="3" />
+                            <path d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831" fill="none" stroke="#10b981"
+                                stroke-width="3" stroke-dasharray="60, 100" />
+                            <path d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831" fill="none" stroke="#8b5cf6"
+                                stroke-width="3" stroke-dasharray="30, 100" />
+                        </svg>
+                    </div>
+                </div>
+            </div>
+            <div id="card-2"
+                class="animated-card top-1/4 right-[10%] xl:right-[18%] w-64 p-4 glass-card hidden lg:block">
+                <div class="flex justify-between items-start">
+                    <div>
+                        <p class="text-xs text-gray-300">Total Income</p>
+                        <p class="text-lg font-bold text-white">$426.8K</p>
+                    </div><span
+                        class="text-xs font-semibold text-green-400 bg-green-500/10 px-2 py-1 rounded-full">36.5%</span>
+                </div>
+                <div class="flex items-end h-24 mt-3 space-x-2">
+                    <div class="w-full bg-blue-500/30 rounded-t-sm" style="height: 40%;"></div>
+                    <div class="w-full bg-blue-500/30 rounded-t-sm" style="height: 60%;"></div>
+                    <div class="w-full bg-blue-500/30 rounded-t-sm" style="height: 80%;"></div>
+                    <div class="w-full bg-blue-500 rounded-t-sm" style="height: 90%;"></div>
+                    <div class="w-full bg-blue-500/30 rounded-t-sm" style="height: 50%;"></div>
+                    <div class="w-full bg-blue-500/30 rounded-t-sm" style="height: 70%;"></div>
+                    <div class="w-full bg-blue-500/30 rounded-t-sm" style="height: 30%;"></div>
+                </div>
+            </div>
+            <div id="card-3"
+                class="animated-card bottom-1/4 right-[12%] xl:right-[22%] w-48 p-4 glass-card hidden lg:block">
+                <p class="text-xs text-gray-300">Cash</p>
+                <p class="text-2xl font-bold text-white mt-1">$288,721</p>
+                <div class="w-full h-1 bg-gray-600/50 rounded-full mt-3">
+                    <div class="w-3/4 h-1 bg-teal-400 rounded-full"></div>
+                </div>
+                <p class="text-xs text-gray-400 mt-2">$95,319</p>
+            </div>
+            <div id="card-4"
+                class="animated-card top-[20%] left-[15%] xl:left-[25%] w-56 p-3 glass-card hidden lg:block">
+                <div class="flex items-center space-x-2"><img src="https://placehold.co/32x32/1E293B/FFFFFF?text=Qb"
+                        alt="Quickbooks" class="w-8 h-8 rounded-md"><span
+                        class="text-2xl font-thin text-gray-400">+</span><img
+                        src="https://placehold.co/32x32/1E293B/FFFFFF?text=Sg" alt="Sage" class="w-8 h-8 rounded-md">
+                </div>
+            </div>
+            <div id="card-5"
+                class="animated-card bottom-[15%] left-[10%] xl:left-[20%] w-52 p-4 glass-card hidden lg:block">
+                <p class="text-sm text-white">Financial Health Score</p>
+                <p class="text-3xl font-bold text-green-400 mt-1">90%</p>
+            </div>
+            <div id="card-6"
+                class="animated-card bottom-[30%] -translate-y-1/2 right-[5%] xl:right-[15%] w-40 p-3 glass-card hidden lg:block">
+                <p class="text-sm font-semibold text-white mb-2">Send to</p>
+                <div class="space-y-2 text-xs">
+                    <p class="text-gray-200">PDF</p>
+                    <p class="text-gray-200">Word</p>
+                    <p class="text-gray-200">Slack</p>
+                    <p class="text-gray-200">Email</p>
+                </div>
+            </div>
+
+            <header class="absolute top-0 left-0 right-0 p-4 z-20">
+                <div class="container mx-auto">
+                    <div
+                        class="flex flex-wrap items-center justify-center gap-x-6 gap-y-2 text-xs sm:text-sm text-gray-300">
+                        <div class="flex items-center gap-1.5"><svg class="w-4 h-4 text-yellow-400" fill="currentColor"
+                                viewBox="0 0 20 20">
+                                <path
+                                    d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                            </svg><span>4.8 rating on <strong>Capterra</strong></span></div>
+                        <div class="flex items-center gap-1.5"><svg class="w-4 h-4 text-yellow-400" fill="currentColor"
+                                viewBox="0 0 20 20">
+                                <path
+                                    d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                            </svg><span>4.8 rating on <strong>G2</strong></span></div>
+                        <div class="flex items-center gap-1.5"><svg class="w-4 h-4 text-yellow-400" fill="currentColor"
+                                viewBox="0 0 20 20">
+                                <path
+                                    d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                            </svg><span>350+ reviews on <strong>Xero</strong></span></div>
+                        <div class="flex items-center gap-1.5"><svg class="w-4 h-4 text-yellow-400" fill="currentColor"
+                                viewBox="0 0 20 20">
+                                <path
+                                    d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                            </svg><span>550+ reviews on <strong>Quickbooks</strong></span></div>
+                    </div>
+                </div>
+            </header>
+
+            <main class="z-10 text-center flex flex-col items-center">
+                <h1
+                    class="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-extrabold max-w-4xl tracking-tight hero-text-shadow">
+                    Create reports, forecasts, dashboards & consolidations</h1>
+                <div
+                    class="mt-8 flex items-center gap-2 border border-yellow-500/30 bg-yellow-500/10 px-4 py-2 rounded-full">
+                    <svg class="w-5 h-5 text-yellow-400" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                        stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M12 2L9 9l-7 2.5 7 2.5 3 7 3-7 7-2.5-7-2.5L12 2z" />
+                        <path d="M20 21l-3-3" />
+                        <path d="M5 2l-1 1" />
+                    </svg><span class="text-sm sm:text-base font-semibold text-white">Now with <span
+                            class="sparkle-text">AI-insights</span></span>
+                </div>
+                <div class="mt-10 flex flex-col sm:flex-row items-center gap-4"><button
+                        class="bg-white text-slate-800 font-semibold px-6 py-3 rounded-lg hover:bg-gray-200 transition-colors w-full sm:w-auto">Start
+                        14-day free trial &gt;</button></div>
+                <a href="#features"
+                    class="mt-6 text-sm text-gray-300 hover:text-white flex items-center gap-2 transition-colors"><svg
+                        xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                        <path d="M10 12a2 2 0 100-4 2 2 0 000 4z" />
+                        <path fill-rule="evenodd"
+                            d="M.458 10C1.732 5.943 5.522 3 10 3s8.268 2.943 9.542 7c-1.274 4.057-5.064 7-9.542 7S1.732 14.057.458 10zM14 10a4 4 0 11-8 0 4 4 0 018 0z"
+                            clip-rule="evenodd" />
+                    </svg>See what we do</a>
+            </main>
+
+            <div class="absolute bottom-5 left-1/2 -translate-x-1/2">
+                <a href="#features" aria-label="Scroll to features section"
+                    class="scroll-down-arrow text-white/50 hover:text-white/80 transition-colors">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" fill="none" viewBox="0 0 24 24"
+                        stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+                    </svg>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section id="features" class="light-section flex flex-col items-center justify-center py-16 px-4 lg:py-24 lg:px-8">
+        <div class="w-full max-w-6xl mx-auto">
+            <header class="text-center mb-4 md:mb-8">
+                <div class="text-xs text-gray-500 tracking-widest mb-2">[ EFFICIENCY, SCALABILITY, AND AGILITY ]</div>
+                <h2 class="text-4xl md:text-6xl font-bold text-gray-800">Unparalleled</h2>
+                <h2 class="text-4xl md:text-6xl font-bold text-gray-800">BSS/OSS Capabilities</h2>
+            </header>
+
+            <nav class="flex flex-wrap justify-center gap-2 md:gap-4 mb-8">
+                <button data-tab="billing"
+                    class="nav-tab active flex items-center gap-3 py-3 px-6 bg-gray-200/50 text-gray-600 rounded-lg border-b-4 border-transparent"><svg
+                        xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                        stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                        class="w-6 h-6">
+                        <path d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2"></path>
+                        <rect x="8" y="2" width="8" height="4" rx="1" ry="1"></rect>
+                    </svg><span>Billing</span></button>
+                <button data-tab="charging"
+                    class="nav-tab flex items-center gap-3 py-3 px-6 bg-gray-200/50 text-gray-600 rounded-lg border-b-4 border-transparent"><svg
+                        xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                        stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                        class="w-6 h-6">
+                        <path d="m12 21-3-3h6l-3 3z"></path>
+                        <path d="M12 3v15"></path>
+                        <path d="M12 3h-2.5a2.5 2.5 0 0 0 0 5h5a2.5 2.5 0 0 1 0 5h-5a2.5 2.5 0 0 0 0 5H12"></path>
+                    </svg><span>Charging</span></button>
+                <button data-tab="catalog"
+                    class="nav-tab flex items-center gap-3 py-3 px-6 bg-gray-200/50 text-gray-600 rounded-lg border-b-4 border-transparent"><svg
+                        xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                        stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                        class="w-6 h-6">
+                        <path
+                            d="M4 22h16a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2H8a2 2 0 0 0-2 2v16a2 2 0 0 1-2 2Zm0 0a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h4">
+                        </path>
+                        <path d="M9 12h6"></path>
+                        <path d="M12 9v6"></path>
+                    </svg><span>Catalog</span></button>
+                <button data-tab="events"
+                    class="nav-tab flex items-center gap-3 py-3 px-6 bg-gray-200/50 text-gray-600 rounded-lg border-b-4 border-transparent"><svg
+                        xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                        stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                        class="w-6 h-6">
+                        <path d="M4.5 12.5a2.5 2.5 0 0 1 0-5h15a2.5 2.5 0 0 1 0 5h-15Z"></path>
+                        <path d="m6.5 12.5-3-3-3 3"></path>
+                        <path d="m17.5 7.5 3 3-3 3"></path>
+                    </svg><span>Events</span></button>
+            </nav>
+
+            <main class="relative flex w-full min-h-[450px] overflow-hidden">
+                <div id="billing" class="content-panel active grid grid-cols-1 md:grid-cols-2 items-center gap-8">
+                    <div class="text-center md:text-left">
+                        <h3 class="text-3xl font-bold mb-4 text-gray-800">Real-Time Convergent Billing</h3>
+                        <p class="text-gray-600">Instantaneous, accurate billing across all services and payment
+                            methods.</p>
+                    </div>
+                    <div
+                        class="mockup-card p-6 bg-white/70 rounded-2xl shadow-lg backdrop-blur-sm border border-gray-200/50">
+                        <div class="flex items-center mb-6">
+                            <div class="w-10 h-10 bg-blue-100 rounded-lg flex items-center justify-center mr-4"><svg
+                                    class="w-6 h-6 text-blue-500" xmlns="http://www.w3.org/2000/svg" width="24"
+                                    height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                    stroke-linecap="round" stroke-linejoin="round">
+                                    <rect x="3" y="3" width="7" height="7"></rect>
+                                    <rect x="14" y="3" width="7" height="7"></rect>
+                                    <rect x="14" y="14" width="7" height="7"></rect>
+                                    <rect x="3" y="14" width="7" height="7"></rect>
+                                </svg></div>
+                            <div>
+                                <h4 class="font-semibold text-lg text-gray-800">EMS</h4>
+                                <p class="text-sm text-gray-500">Billing</p>
+                            </div>
+                        </div>
+                        <div class="grid grid-cols-3 gap-4 text-center">
+                            <div>
+                                <p class="text-sm text-gray-500">Estimated invoices</p>
+                                <p class="text-2xl font-bold text-gray-800">112 355</p>
+                            </div>
+                            <div>
+                                <p class="text-sm text-gray-500">Estimated duration</p>
+                                <p class="text-2xl font-bold text-gray-800">45 MIN</p>
+                            </div>
+                            <div>
+                                <p class="text-sm text-gray-500">Current period end</p>
+                                <p class="text-2xl font-bold text-gray-800">17 DAYS</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="charging" class="content-panel grid grid-cols-1 md:grid-cols-2 items-center gap-8">
+                    <div class="text-center md:text-left">
+                        <h3 class="text-3xl font-bold mb-4 text-gray-800">Online Charging System</h3>
+                        <p class="text-gray-600">AI-powered insights that predict customer needs and drive personalized
+                            experiences.</p>
+                    </div>
+                    <div
+                        class="mockup-card p-4 bg-white/70 rounded-2xl shadow-lg backdrop-blur-sm border border-gray-200/50 flex justify-center items-center">
+                        <div class="w-64 h-auto bg-gray-800 rounded-3xl p-3 shadow-2xl">
+                            <div class="flex justify-between items-center text-white px-2 mb-4"><span
+                                    class="text-sm">9:41</span>
+                                <div class="flex gap-1"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                        fill="currentColor" viewBox="0 0 16 16">
+                                        <path
+                                            d="M12 1a1 1 0 0 1 1 1v10.755S12 11 8 11s-5 1.755-5 1.755V2a1 1 0 0 1 1-1h5z" />
+                                    </svg><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                        fill="currentColor" viewBox="0 0 16 16">
+                                        <path d="M3.5 0a.5.5 0 0 1 .5.5v15a.5.5 0 0 1-1 0v-15a.5.5 0 0 1 .5-.5z" />
+                                    </svg></div>
+                            </div>
+                            <div class="text-center mb-6">
+                                <p class="text-gray-400 text-sm">per minute</p>
+                                <p class="text-white text-5xl font-light">€0.00</p>
+                            </div>
+                            <div class="space-y-3 px-2">
+                                <div class="bg-gray-700/50 p-2 rounded-lg text-white text-sm">TRAFFIC TYPE</div>
+                                <div class="bg-gray-700/50 p-2 rounded-lg text-white text-sm">COUNTRY</div>
+                                <div class="bg-gray-700/50 p-2 rounded-lg text-white text-sm">CALL TYPE</div>
+                            </div>
+                            <div class="text-center mt-8">
+                                <p class="text-white text-xl">+1 (415) 678-2345</p>
+                                <p class="text-green-400 text-sm">Calling</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="catalog" class="content-panel grid grid-cols-1 md:grid-cols-2 items-center gap-8">
+                    <div class="text-center md:text-left">
+                        <h3 class="text-3xl font-bold mb-4 text-gray-800">Product Catalog</h3>
+                        <p class="text-gray-600">Intuitive tools that empower customers to manage their accounts with
+                            ease, freeing up your team.</p>
+                    </div>
+                    <div
+                        class="mockup-card p-6 bg-white/70 rounded-2xl shadow-lg backdrop-blur-sm border border-gray-200/50">
+                        <div class="mb-4">
+                            <h4 class="font-semibold text-gray-500 text-sm">ADD-ONS</h4>
+                        </div>
+                        <div class="flex items-center gap-4 mb-6"><img
+                                src="https://placehold.co/60x60/000000/FFFFFF?text=S" alt="Spotify Logo"
+                                class="rounded-lg"><img src="https://placehold.co/60x60/E50914/FFFFFF?text=N"
+                                alt="Netflix Logo" class="rounded-lg"></div>
+                        <div>
+                            <p class="text-sm text-gray-500">MOBILEAPP_ONLY</p>
+                            <h4 class="text-2xl font-bold text-gray-800">TOTAL UNLIMITED</h4>
+                            <p class="text-sm text-green-600">Unlimited minutes</p>
+                        </div>
+                    </div>
+                </div>
+                <div id="events" class="content-panel grid grid-cols-1 md:grid-cols-2 items-center gap-8">
+                    <div class="text-center md:text-left">
+                        <h3 class="text-3xl font-bold mb-4 text-gray-800">Event Management</h3>
+                        <p class="text-gray-600">Track and manage system and user events in real-time. (Content not
+                            shown in video)</p>
+                    </div>
+                    <div
+                        class="mockup-card p-6 bg-white/70 rounded-2xl shadow-lg backdrop-blur-sm border border-gray-200/50 flex justify-center items-center h-64">
+                        <p class="text-gray-500">Events UI Coming Soon</p>
+                    </div>
+                </div>
+            </main>
+        </div>
+        <footer class="mt-12 w-full flex justify-center">
+            <div
+                class="flex items-center justify-center gap-2 bg-gray-800/80 backdrop-blur-sm p-2 rounded-xl shadow-2xl">
+                <button
+                    class="text-white/80 hover:text-white px-4 py-2 text-sm rounded-lg transition-colors">Products</button>
+                <button
+                    class="text-white/80 hover:text-white px-4 py-2 text-sm rounded-lg transition-colors">Solutions</button>
+                <button
+                    class="text-white/80 hover:text-white px-4 py-2 text-sm rounded-lg transition-colors">Resources</button>
+                <button
+                    class="text-white/80 hover:text-white px-4 py-2 text-sm rounded-lg transition-colors">Services</button>
+                <button
+                    class="bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 text-sm font-semibold rounded-lg transition-colors">BOOK
+                    A MEETING</button>
+            </div>
+        </footer>
+    </section>
+    <section class="showcase-slider">
+        <div class="transition-wipe"></div>
+
+        <div class="slides-container">
+            <div class="slide active" data-slide="1">
+                <div class="slide-content">
+                    <div class="slide-tags">
+                        <span>Norway</span>
+                        <span>B2E Event</span>
+                    </div>
+                    <h2>Switch - Sopra Steria Kick Off 2025</h2>
+                    <a href="#" class="read-more">Read More -></a>
+                </div>
+                <div class="slide-image">
+                    <img src="/part.png" alt="Sopra Steria Kick Off 2025">
+                </div>
+                <div class="slide-number">01</div>
+            </div>
+
+            <div class="slide" data-slide="2">
+                <div class="slide-content">
+                    <div class="slide-tags">
+                        <span>International</span>
+                        <span>Norway</span>
+                        <span>Brand Activation</span>
+                    </div>
+                    <h2>Grand Hotel Oslo 150 Years</h2>
+                    <a href="#" class="read-more">Read More -></a>
+                </div>
+                <div class="slide-image">
+                    <img src="https://images.unsplash.com/photo-1516450360452-9312f5e86fc7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDR8fGZlc3RpdmFsfGVufDB8fHx8MTY3OTg0MzMwMA&ixlib=rb-4.0.3&q=80&w=400"
+                        alt="Grand Hotel Oslo 150 Years">
+                </div>
+                <div class="slide-number">02</div>
+            </div>
+
+            <div class="slide" data-slide="3">
+                <div class="slide-content">
+                    <div class="slide-tags">
+                        <span>Norway</span>
+                        <span>B2B Event</span>
+                    </div>
+                    <h2>Informal Meeting of NATO Foreign Ministers</h2>
+                    <a href="#" class="read-more">Read More -></a>
+                </div>
+                <div class="slide-image">
+                    <img src="/image.png" alt="NATO Foreign Ministers Meeting">
+                </div>
+                <div class="slide-number">03</div>
+            </div>
+        </div>
+
+        <a href="#" class="view-all-cases">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                stroke-linecap="round" stroke-linejoin="round">
+                <rect x="3" y="3" width="7" height="7"></rect>
+                <rect x="14" y="3" width="7" height="7"></rect>
+                <rect x="14" y="14" width="7" height="7"></rect>
+                <rect x="3" y="14" width="7" height="7"></rect>
+            </svg>
+            <span>View All Cases</span>
+        </a>
+
+        <div class="slider-nav">
+            <button id="prev-slide" aria-label="Previous Slide">&lt;</button>
+            <button id="next-slide" aria-label="Next Slide">&gt;</button>
+        </div>
+    </section>
+    <section class="bg-[#F8F5F2] p-8 font-['Montserrat']">
+        <div class="dashboard-container">
+            <aside class="sidebar">
+                <div class="filter-group">
+                    <h3 class="group-title">Filter by</h3>
+                    <div class="filter-section">
+                        <p class="filter-label">Type</p>
+                        <div class="button-container" id="type-filter">
+                            <button data-value="Refurbishment">Refurbishment</button>
+                            <button data-value="New build">New build</button>
+                            <button data-value="All" class="active">All</button>
+                        </div>
+                    </div>
+                    <div class="filter-section">
+                        <p class="filter-label">Status</p>
+                        <div class="button-container" id="status-filter">
+                            <button data-value="Complete" class="active">Complete</button>
+                            <button data-value="Estimate">Estimate</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="key-group">
+                    <h3 class="group-title">Key</h3>
+                    <ul class="key-list">
+                        <li>
+                            <span class="key-line target-2030"></span>
+                            <p>500 kgCO₂e/m² - Embodied Carbon Target 2030</p>
+                        </li>
+                        <li>
+                            <span class="key-line target-2025"></span>
+                            <p>600 kgCO₂e/m² - Embodied Carbon Target 2025</p>
+                        </li>
+                    </ul>
+                </div>
+            </aside>
+
+            <main class="main-content">
+                <header class="dashboard-header">
+                    <h1>EMBODIED<br>CARBON<br>EMISSIONS</h1>
+                    <p class="subtitle">Intensity measured by kgCO₂e/m²</p>
+                    <a href="#" class="download-link">
+                        Download the data
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <circle cx="12" cy="12" r="10"></circle>
+                            <polyline points="8 12 12 16 16 12"></polyline>
+                            <line x1="12" y1="8" x2="12" y2="16"></line>
+                        </svg>
+                    </a>
+                </header>
+
+                <div class="chart-container">
+                    <canvas id="emissionsChart"></canvas>
+                </div>
+            </main>
+        </div>
+    </section>
+    <section class="customer-logos">
+        <div class="logo-grid">
+            <div class="logo-column">
+                <img src="https://logo.clearbit.com/brex.com" alt="Brex Logo">
+                <img src="https://logo.clearbit.com/runwayml.com" alt="Runway Logo">
+                <img src="https://logo.clearbit.com/openai.com" alt="OpenAI Logo">
+                <img src="https://logo.clearbit.com/cash.app" alt="Cash App Logo">
+                <img src="https://logo.clearbit.com/brex.com" alt="Brex Logo">
+                <img src="https://logo.clearbit.com/runwayml.com" alt="Runway Logo">
+                <img src="https://logo.clearbit.com/openai.com" alt="OpenAI Logo">
+                <img src="https://logo.clearbit.com/cash.app" alt="Cash App Logo">
+            </div>
+
+            <div class="logo-column">
+                <img src="https://logo.clearbit.com/supercell.com" alt="Supercell Logo">
+                <img src="https://logo.clearbit.com/retool.com" alt="Retool Logo">
+                <img src="https://logo.clearbit.com/notion.so" alt="Notion Logo">
+                <img src="https://logo.clearbit.com/loom.com" alt="Loom Logo">
+                <img src="https://logo.clearbit.com/supercell.com" alt="Supercell Logo">
+                <img src="https://logo.clearbit.com/retool.com" alt="Retool Logo">
+                <img src="https://logo.clearbit.com/notion.so" alt="Notion Logo">
+                <img src="https://logo.clearbit.com/loom.com" alt="Loom Logo">
+            </div>
+        </div>
+
+        <div class="cta-overlay">
+            <a href="#" class="customers-button">
+                Meet our customers &gt;
+            </a>
+        </div>
+    </section>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+
+    <section class="testimonials-container">
+        <div class="testimonials-sticky">
+            <div class="testimonials-content">
+                <h2 class="heading-happy">Happy</h2>
+                <h2 class="heading-sellers">Sellers</h2>
+
+                <div class="card testimonial-1">"The platform has taken a lot off our plate. The automated feedback
+                    system runs quietly in the background."</div>
+                <div class="card testimonial-2">"It's been a great fit for our team and a time-saver we didn't know we
+                    needed."</div>
+                <img src="https://images.unsplash.com/photo-1554151228-14d9def656e4?w=400" alt="User 1"
+                    class="person person-1">
+                <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=400" alt="User 2"
+                    class="person person-2">
+                <img src="https://logo.clearbit.com/wix.com" alt="Company Logo" class="person company-logo">
+            </div>
+        </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script
+        src="https://cdn.jsdelivr.net/npm/chartjs-plugin-annotation@2.2.1/dist/chartjs-plugin-annotation.min.js"></script>
+</body>
+
+</html>
